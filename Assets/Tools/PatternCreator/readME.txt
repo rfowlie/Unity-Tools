@@ -1,0 +1,2 @@
+The Spawn pattern creator allows you to create and save a set of points on the surface of objects in various traditional shapes. To demo the pattern creator, select the SpawnPatternCreator. Adjusting the main parameters (spawn pattern, amount of points, radius, offset) create a desired shape. Save your shape by setting a name and setting it into the stores shapes. Once you are content with the patterns created you can save out all the groupings to a scriptable object. 
+You can adjust the target surface by passing in a new gameobject to the map value. 

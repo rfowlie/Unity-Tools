@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9173109238776623885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1303840625924840048}
+  - component: {fileID: 3698105801221929181}
+  m_Layer: 0
+  m_Name: SpawnPatternCreator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1303840625924840048
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9173109238776623885}
+  m_LocalRotation: {x: -0.50112593, y: 0.48174658, z: -0.18461734, w: 0.69477296}
+  m_LocalPosition: {x: -5.09, y: 9.69, z: -19.74}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -31.229, y: 87.749, z: -59.843}
+--- !u!114 &3698105801221929181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9173109238776623885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0de2f0fe6b8328b40a18691279e48ca2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  map: {fileID: 0}
+  amountOfPoints: 10
+  radius: 10
+  angleOffset: 0
+  gizmoColour: {r: 1, g: 1, b: 1, a: 1}
+  patternName: 
+  spawnShape: 1
+  isOn: 0
+  patternNames:
+  - eee
+  - ggg
+  - ggg2
+  - aaa
+  colors:
+  - {r: 1, g: 0.2657566, b: 0, a: 1}
+  - {r: 0, g: 1, b: 0.93155813, a: 1}
+  - {r: 0, g: 1, b: 0.93155813, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  toggles: 01010101
